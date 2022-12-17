@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de75492d10a26b44b9aa0342c7adc71, type: 3}
+  m_Name: Default Enemy Requests Lists
+  m_EditorClassIdentifier: 
+  minimumAvailableRequests: 1
+  requestsOrderType: 00000000
+  requestContainer:
+  - itemObjects:
+    - {fileID: 11400000, guid: 52bc8e727a8bbe04594f5d08c61a6d2e, type: 2}
+    requestType: 0
+  - itemObjects:
+    - {fileID: 11400000, guid: 6afa7b9878f2bf64cad5403f700059a9, type: 2}
+    requestType: 0
+  - itemObjects:
+    - {fileID: 11400000, guid: 7952646b47a9dfa4599f139f15723dc9, type: 2}
+    requestType: 0
+  - itemObjects:
+    - {fileID: 11400000, guid: df9de1984f57d7d4b8ce18ccf6016c07, type: 2}
+    requestType: 0
+  - itemObjects:
+    - {fileID: 11400000, guid: 3f0df414506dd7745a7d0022b533d350, type: 2}
+    requestType: 0
+  - itemObjects:
+    - {fileID: 11400000, guid: a98ea6f498a23f44a8e915396200718a, type: 2}
+    requestType: 0

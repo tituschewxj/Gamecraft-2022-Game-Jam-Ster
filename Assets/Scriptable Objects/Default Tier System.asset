@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3aa4e8e6c668dcb43b672c5543d89dc1, type: 3}
+  m_Name: Default Tier System
+  m_EditorClassIdentifier: 
+  tierLevels:
+  - tier:
+      tier: 0
+    monsterBaseXp: 5
+    itemRequestXp: 2
+    recipeXp: 1
+    scoreRequired: 0
+    tierMaterial: {fileID: 2100000, guid: b2631a42dd579d6478797959c9f777a0, type: 2}
+  - tier:
+      tier: 1
+    monsterBaseXp: 15
+    itemRequestXp: 3
+    recipeXp: 2
+    scoreRequired: 25
+    tierMaterial: {fileID: 2100000, guid: c8184ab5390295b45a25291789cf233b, type: 2}
+  - tier:
+      tier: 2
+    monsterBaseXp: 30
+    itemRequestXp: 7
+    recipeXp: 4
+    scoreRequired: 70
+    tierMaterial: {fileID: 2100000, guid: dd5a3f3c96cb88541904c0bf0980fba5, type: 2}
+  - tier:
+      tier: 3
+    monsterBaseXp: 59
+    itemRequestXp: 15
+    recipeXp: 6
+    scoreRequired: 150
+    tierMaterial: {fileID: 2100000, guid: 400785a75a9db8f4c844de3a3d9d7b20, type: 2}
+  - tier:
+      tier: 4
+    monsterBaseXp: 119
+    itemRequestXp: 31
+    recipeXp: 8
+    scoreRequired: 300
+    tierMaterial: {fileID: 2100000, guid: 74a10af35287e914ba9b8598050a7881, type: 2}

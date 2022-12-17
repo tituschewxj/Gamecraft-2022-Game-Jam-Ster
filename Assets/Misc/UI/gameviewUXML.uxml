@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:GroupBox name="Main" style="height: 100%; align-items: center; justify-content: space-between;">
+        <ui:VisualElement name="Toolbar" style="flex-direction: row; justify-content: space-between; align-items: auto; flex-wrap: nowrap; flex-grow: 0; -unity-background-image-tint-color: rgb(255, 255, 255); background-image: none; width: 64%;">
+            <ui:VisualElement name="Inventory" style="width: auto; flex-direction: column; align-items: center; justify-content: center;">
+                <ui:Label text="Inventory" display-tooltip-when-elided="true" name="Label" style="white-space: normal; -unity-text-align: middle-center;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Time" style="width: auto; justify-content: space-between; flex-direction: column; align-items: auto;">
+                <ui:Label text="Time left: " display-tooltip-when-elided="true" name="TimeText" style="-unity-text-align: middle-center; white-space: normal;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="Tooltips" style="height: 46px; align-items: center; justify-content: space-around;">
+            <ui:Label text="Press space to jump" display-tooltip-when-elided="true" name="MainText" style="height: 25px; -unity-text-align: middle-center; white-space: nowrap;" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+</ui:UXML>
