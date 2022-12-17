@@ -13,5 +13,7 @@ $ Unity packages used:
 
 # Credits:
 Font: Lemon Milk Font: https://www.dafont.com/lemon-milk.font
+
 Sound assets: Freesound: https://freesound.org/
+
 Music: Mubert: https://mubert.com/
