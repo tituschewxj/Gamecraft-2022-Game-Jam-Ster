@@ -1,4 +1,4 @@
-# Gamecraft! 2022 - gamejam
+# Gamecraft! 2022 - gamejam - Ster
 Link: https://itch.io/jam/gamecraft-2022
 The theme of the gamejam was Magic as a Science.
 
